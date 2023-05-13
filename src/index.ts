@@ -1,8 +1,9 @@
 import { BotClient } from "./client"
 import { join } from "path"
+import { TOKEN } from "./config"
 
 const bot = new BotClient({
-  token: "deez nuts"
+  token: TOKEN
 })
 
 let ioCommands = {
