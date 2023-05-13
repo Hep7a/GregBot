@@ -2,7 +2,7 @@ import { BotClient } from "./client"
 import { join } from "path"
 
 const bot = new BotClient({
-  token: "OTY0MTA4NTc3ODAxMzc1Nzk1.GlYvBj.A0npyXOrq3PIhy_gQtHyAM3tQdHa9Xbx91NdQk"
+  token: "deez nuts"
 })
 
 let ioCommands = {

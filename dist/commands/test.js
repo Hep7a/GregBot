@@ -5,7 +5,6 @@ class Ping extends command_1.Command {
     constructor() {
         super("test");
         this.x = 0;
-        this.x = 1;
     }
     exec(client, msg) {
         msg.channel.send(`Test: ${this.x}`);
